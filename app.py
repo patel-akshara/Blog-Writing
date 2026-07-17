@@ -1,7 +1,7 @@
 import google.generativeai as genai
 import gradio as gr
 
-genai.configure(api_key="")
+genai.configure(api_key="GOOGLE_API_KEY")
 
 def generate_blog(topic,audience,language,tone,words,terminology):
   prompt=f"""
